@@ -37,7 +37,7 @@ saveRDS(glm_model, "Logistics_reg.RDS")
 confusionMatrix(p,df$diabetes,
                 positive ="pos",
                 mode = "prec_recall")
-
+## precition recall F1
 ##friend's Computer
 model <- readRDS("Logistics_reg.RDS")
 
