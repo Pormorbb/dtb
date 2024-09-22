@@ -10,7 +10,6 @@ df <- PimaIndiansDiabetes
 
 ## check / inspect data null data clean
 sum(complete.cases(df)) ##count missiong values
-mean(complete.cases(df)== 1)
 mean(complete.cases(df)) ==1
 glimpse(df)
 
@@ -36,4 +35,4 @@ saveRDS(glm_model, "Logistics_reg.RDS")
 
 ##friend's Computer
 model <- readRDS("Logistics_reg.RDS")
-readRDS
+
