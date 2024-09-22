@@ -6,3 +6,6 @@ my data sci and analytics project
 3. R programming
 4. Looker GA4 Dashboard
 5. Linear Regressing Model using caret
+
+## contact ME
+reach out me @biibd_
