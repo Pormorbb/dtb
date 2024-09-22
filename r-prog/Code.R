@@ -33,6 +33,11 @@ varImp(glm_model)
 ##save model .RDS
 saveRDS(glm_model, "Logistics_reg.RDS")
 
+##caret: confusion metrix
+confusionMatrix(p,df$diabetes,
+                positive ="pos",
+                mode = "prec_recall")
+
 ##friend's Computer
 model <- readRDS("Logistics_reg.RDS")
 
